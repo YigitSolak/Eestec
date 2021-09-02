@@ -1,0 +1,187 @@
+.Link {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+}
+.NewLink {
+  float: left;
+  background-color: #e52a30;
+  margin-top: 4.29%;
+  margin-left: 23.3%;
+  width: 47.4%;
+  height: 8.566%;
+  border-radius: 21px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+}
+.Triple {
+  float: right;
+  margin-top: 363.7%;
+  margin-right: 810%;
+  background-color: #e52a30;
+  width: 363.7%;
+  height: 80px;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+.DropdownContent {
+  display: none;
+  position: absolute;
+  width: 1690.909%;
+  height: 80%;
+  z-index: 1;
+  right: 810%;
+  top: 112.5%;
+}
+.DropdownContent a {
+  color: black;
+  background-color: #ffffff;
+  border: solid;
+  text-decoration: none;
+  display: block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.DropdownContent p {
+  padding-top: 5.38%;
+}
+.DropdownContent a.Video {
+  border-top-right-radius: 21px;
+  border-top-left-radius: 21px;
+  border-width: 1px 1px 0px 1px;
+  border-color: #707070;
+}
+.DropdownContent a.Muzik {
+  border-bottom-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  border-width: 1px;
+  border-color: #707070;
+}
+.show {
+  display: block;
+}
+.Link {
+  float: left;
+  margin-left: 23.325%;
+  width: 53.191%;
+  height: 14.883%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #fcfcfc;
+  border-width: 1px;
+  border-color: #e52a30;
+  border-style: solid;
+  border-radius: 21px;
+  margin-top: 1.984%;
+}
+.PenHead {
+  width: 16px;
+  height: 16px;
+  padding-left: 9px;
+}
+.PenText {
+  width: 16px;
+  height: 16px;
+  margin-top: 28px;
+  margin-left: 370px;
+}
+.Trash {
+  width: 57px;
+  height: 32px;
+}
+.Dot {
+  width: 10px;
+  height: 10px;
+}
+.Text {
+  width: 384.804%;
+  height: 33px;
+  border-width: 1px;
+  border-color: #d4d4d4;
+  border-radius: 5px;
+}
+
+.Link var.HeadText {
+  width: auto;
+  height: auto;
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.Link label {
+  float: right;
+  margin-top: 20px;
+  margin-right: 34px;
+}
+.Link var.TextInput {
+  width: auto;
+  height: auto;
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.Link img.Trash {
+  float: right;
+  margin-top: 19px;
+  margin-right: 33px;
+}
+
+/*SWİTCH*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 57px;
+  height: 28px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d6d6d6;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 6px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #00ff19;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(21px);
+  -ms-transform: translateX(21px);
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}

@@ -1,0 +1,58 @@
+.Home {
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+  overflow-y: hidden;
+  background-color: #ffffff;
+}
+button {
+  background-color: #e52a30;
+  color: #ffffff;
+  font-size: 25px;
+  font: bold;
+  width: 32.6%;
+  height: 7.6%;
+  border: none;
+  border-radius: 71px;
+  margin-top: 27px;
+}
+img.Logo {
+  width: 12.8%;
+  height: auto;
+  margin-bottom: 2%;
+}
+img.SocialMedia {
+  padding-bottom: 2px;
+  margin-left: 23px;
+  width: 2.7%;
+  height: auto;
+}
+img.SocialMediaBig {
+  margin-top: 37px;
+  margin-left: 23px;
+  margin-right: 845px;
+  width: 3.1%;
+  height: auto;
+}
+.Sponsor {
+  float: left;
+  margin-top: 4.38%;
+  background-color: #ffffff;
+  color: #a09797;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Sponsor img {
+  background-color: #ffffff;
+}
+.Buttons {
+  float: left;
+  margin-top: 5.5%;
+}
+.Video {
+  float: right;
+  margin-right: 7%;
+  margin-top: 7%;
+  width: 38%;
+  height: auto;
+}

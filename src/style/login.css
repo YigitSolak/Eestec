@@ -1,0 +1,57 @@
+.Login {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  overflow: hidden;
+  overflow-y: hidden;
+  background-color: #e52a30;
+}
+.rectangle {
+  float: left;
+  margin-left: 31.5%;
+  margin-top: 10%;
+  width: 37.96%;
+  height: 61.45%;
+  border-radius: 41px;
+  background-color: #ffffff;
+}
+label {
+  font: bold;
+  font-size: 25px;
+  color: #e52a30;
+  background-color: #ffffff;
+}
+input {
+  width: 290px;
+  height: 60px;
+  border-color: #e52a30;
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+label.Id {
+  padding-right: 56px;
+  margin-left: 35px;
+}
+input.Id {
+  margin-right: 57px;
+  margin-top: 190px;
+}
+label.Pass {
+  padding-right: 41px;
+  margin-left: 35px;
+}
+input.Pass {
+  margin-right: 72px;
+  margin-top: 61px;
+}
+p.SponsorLogin {
+  float: left;
+  margin-top: 4.38%;
+  background-color: #e52a30;
+  color: #a09797;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.SponsorLogin img {
+  background-color: #e52a30;
+}

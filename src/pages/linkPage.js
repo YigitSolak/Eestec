@@ -1,7 +1,7 @@
 import "../style/linkPage.css";
 export default function LinkPage() {
   return (
-    <div className="Link">
+    <div className="LinkPage">
       <var className="NewLink">
         <p>ADD NEW LİNK</p>
       </var>

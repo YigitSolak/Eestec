@@ -10,17 +10,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <ul className="AppHeader">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/linkPage">Link</Link>
-            </li>
-            <li>
-              <Link to="/login">Login</Link>
-            </li>
-          </ul>
+          <Link to="/">Home</Link>
+          <Link to="/linkPage">Link</Link>
+          <Link to="/login">Login</Link>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/linkPage" component={LinkPage} />
